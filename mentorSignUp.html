@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>CovEd India | Registration</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="./styles/mSignUp.css" rel="stylesheet" type="text/css">
+
+        <script>
+
+            function checkWhere(){
+                var x = window.location.href;
+
+                var y = x.split('/');
+                var z = y[y.length - 1];
+
+                if(z == "studentSignUp.html"){
+                    document.getElementById("msiNavButton1").classList.add("active");
+                }else if(z == "mentorSignUp.html"){
+                    document.getElementById("msiNavButton2").classList.add("active");
+                }
+            }
+
+            setInterval(
+                function(){
+                    checkWhere();
+                }
+            ,1000);
+            
+        </script>
+    </head>
+
+    <body>
+        <div class="tempNavBar"></div>
+
+        <div class="msiContainer">
+            <div class="lowNav">
+                <div class="msiNavBar">
+                    <div id="msiNavButton1">
+                        <a href="studentSignUp.html"><h2>Student</h2></a>
+                    </div>
+                    <div id="msiNavButton2">
+                        <a href="mentorSignUp.html"><h2>Mentor</h2></a>
+                    </div>
+                </div>
+
+                <div class="resmsiNavBar">
+                    <a href="studentSignUp.html"><h2>Are you a student?</h2></a>
+                </div>
+                
+            </div>
+
+            <div class="msiHolder">
+                <br><br>
+
+                <h3>Mentor Registration</h3>
+                <br>
+                If you would like to be a mentor, please register here.
+
+                <br><br>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScsQ513B06LS0M4NMl-K2CRL1oI8aORBqiBeOoqw_Qf1Vnrtw/viewform?embedded=true" class="msiIframe" scrolling="no">Loading…</iframe>
+            </div>
+        </div>
+    </body>
+</html>
