@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap'); /*font-family: 'Quicksand', sans-serif;*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap'); /* font-family: 'Montserrat', sans-serif; */ 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); /*font-family: 'Bebas Neue', cursive;*/
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap'); 
 
 *{
     margin: 0;
@@ -9,8 +10,12 @@
     font-size: 24px;
 }
 
+.addShadow{
+    box-shadow: 0px 5px 4px -5px grey;
+}
+
 .navContainer{
-    box-shadow: 0 2px 6px 0 #ede8da;
+    
     position: sticky;
     top: 0;
     z-index: 5;
@@ -20,7 +25,7 @@
     flex-direction: row;
     justify-content: center;
     background-color: #ffffff;
-    backdrop-filter: saturate(280%) blur(20px);
+    /* backdrop-filter: saturate(280%) blur(20px); */
 }
 
 .nav{
@@ -42,24 +47,31 @@
 #covedIMG{
     display: none;
 }
+
 #covedNAV{
     font-family: 'Montserrat', sans-serif;
 }
+
 .navLinks{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    justify-self: flex-end;
-
+    /* justify-self: flex-end; */
 }
+
+
 .navLink{
     font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Nunito Sans'; */
     cursor: pointer;
     margin: 0px 3em;
     font-size: 0.583em;
     color: black;
+}
 
+.navLink[selected="True"]{
+    font-weight: 900;
 }
 
 .container{
@@ -83,7 +95,7 @@
 .aboutus{
     background-color: #1162c2;
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: whitesmoke;
     padding-top: 30px;
     padding-bottom: 30px;
     display: grid;
@@ -108,11 +120,11 @@
 }
 
 #aboutusbar{
-    height: 80%;
+    height: 70%;
 }
 
 .we{ 
-    width: 70%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -131,7 +143,7 @@
 
 .wetitle{
     margin-bottom: 0.83em;
-    font-size: 2em;
+    font-size: 1.75em;
 }
 
 .we_desc{
@@ -144,6 +156,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: start;
+    margin-bottom: 100px;
 }
 
 .signupcolumns{
@@ -192,28 +205,11 @@
 
 .steps{
     width: 100%;
-    height: 200px;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: start;
 }
-
-#steps1{
-    height: 220px;
-}
-
-#steps2{
-    height: 160px;
-}
-
-#stepm1{
-    height: 235px;
-}
-
-#stepm2{
-    height: 180px;
-}
-
 
 .stepsdivider{
     width: 100%;
@@ -263,5 +259,17 @@
     font-family: 'Montserrat', sans-serif; 
     font-size: 0.625em;
     text-align: justify;
+}
+
+.signupbtn{
+    box-shadow: 0px 3px 4px grey;
+    width: 100px;
+    height: 50px;
+    background-color: #1162c2;
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    align-self: center;
+    margin-top: 40px;
 }
 
