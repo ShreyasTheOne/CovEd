@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap'); /*font-family: 'Quicksand', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap'); /* font-family: 'Montserrat', sans-serif; */ 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); /*font-family: 'Bebas Neue', cursive;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+.navContainer{
+    box-shadow: 0 2px 6px 0 #ede8da;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    display: flex;
+    width: 100%;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ffffff;
+    backdrop-filter: saturate(280%) blur(20px);
+}
+
+.nav{
+    width: 1272.5px;
+    height: 2.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 0.7em;
+    margin-left: 0.7em;
+}
+
+.navLogo {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#covedIMG{
+    display: none;
+}
+#covedNAV{
+    font-family: 'Montserrat', sans-serif;
+}
+.navLinks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: flex-end;
+
+}
+.navLink{
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    margin: 0px 3em;
+    font-size: 0.583em;
+    color: black;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    height: fit-content;
+}
+
+.titlepage{
+    height: 300px;
+}
+
+.aboutus{
+    background-color: #1162c2;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: 48fr 4fr 48fr;
+}
+
+.or{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-column: 2 / span 1;
+}
+.bar{
+    background-color: #A4A4A4;
+    height: 80%;
+    width: 1px;
+}
+
+#signupbar{
+    height: 90%;
+}
+
+#aboutusbar{
+    height: 80%;
+}
+
+.we{ 
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+    align-self: center;
+}
+
+#whoweare{
+    grid-column: 1/ span 1;
+    
+}
+
+#whatwewant{
+    grid-column: 3 / span 1;
+}
+
+.wetitle{
+    margin-bottom: 0.83em;
+    font-size: 2em;
+}
+
+.we_desc{
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.signupcolumns{
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: 48fr 4fr 48fr;
+    width: 90%;
+    align-self: center;
+    height: auto;
+}
+
+
+
+.applyingsignup{
+    display: flex;
+    flex-direction: column;
+}
+
+#studentsignup{
+    grid-column: 1 / span 1;
+}
+
+#mentorsignup{
+    grid-column: 3 / span 1;
+}
+
+.applyingtitle{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bolder;
+    font-size: 2em;
+    color: #1162c2;
+    height: 2em;
+    text-align: center;
+
+}
+
+.applycontent{
+    margin-top: 10px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: auto;
+    border: 0px solid #000000;
+}
+
+.steps{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+#steps1{
+    height: 220px;
+}
+
+#steps2{
+    height: 160px;
+}
+
+#stepm1{
+    height: 235px;
+}
+
+#stepm2{
+    height: 180px;
+}
+
+
+.stepsdivider{
+    width: 100%;
+    height: 2px;
+    border-radius: 5px;
+    border: none;
+    background-color: olive;
+    margin: 30px auto;
+    
+}
+
+.icons{
+    width: 100px;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+
+#iconm4 , #icons5 {
+    width: 80px;
+    margin-left: 30px;
+}
+
+.stepcontent{
+
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.steptitle{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 1000;
+    color: #ff8614;
+    margin-top: 10px;
+    margin-bottom:10px;
+    font-size: 0.8125em; 
+}
+
+.stepnumber{
+    font-family: 'Montserrat', sans-serif; 
+    color: #ff8614;
+    font-size: 0.67em;
+    margin-bottom: 20px;
+}
+
+.steptext{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 0.625em;
+    text-align: justify;
+}
+
