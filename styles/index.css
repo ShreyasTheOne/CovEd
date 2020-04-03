@@ -14,6 +14,8 @@
     display: none;
 }
 
+
+
 .addShadow{
     box-shadow: 0px 5px 4px -5px grey;
 }
@@ -261,7 +263,17 @@
     font-size: 0.625em;
     text-align: justify;
 }
+.steptext a {
+    text-decoration: none;
+    font-size: inherit;
+    color: inherit;
+    font-weight: bold;
+}
 
+.steptext strong {
+    font-size: inherit;
+    cursor: pointer;
+}
 .signupbtn{
     box-shadow: 0px 3px 4px grey;
     width: 100px;
@@ -296,7 +308,7 @@
     #covedindia{
         position: relative;
         bottom: 100px;
-        width: 80%;
+        width: 100%;
     }
     .nav{
         width: 100%;

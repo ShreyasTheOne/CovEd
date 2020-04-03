@@ -119,7 +119,7 @@ $("HTML, BODY").animate({
 }
 
 function getDuration(target) {
-var currentTop = $(window).scrollTop(), rate = 1, distance;
+var currentTop = $(window).scrollTop(), rate = 0.5, distance;
 distance = Math.abs(currentTop - target);
 return distance * rate;
 }
