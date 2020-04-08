@@ -51,7 +51,8 @@
 }
 
 #covedIMG{
-    display: none;
+    display: block;
+    width: 50px;
 }
 
 #covedNAV{
@@ -284,6 +285,7 @@
     border-radius: 15px;
     align-self: center;
     margin-top: 40px;
+    cursor: pointer;
 }
 
 .titlepage{
