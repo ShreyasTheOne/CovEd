@@ -50,12 +50,21 @@ $("document").ready(function(){
         scrollToElem('#faq');
     });
 
+
     $("#enrolbtn").on('click', function(){
         window.location = "studentSignUp.html";
     });
 
     $("#joinusbtn").on('click', function(){
         window.location = "mentorSignUp.html";
+    });
+
+    $('#studenttpbtn').on('click', function(){
+        scrollToElem('#studentsignup');
+    });
+
+    $('#mentortpbtn').on('click', function(){
+        scrollToElem('#mentorsignup');
     });
 
 
