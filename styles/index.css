@@ -74,14 +74,12 @@
     /* font-family: 'Nunito Sans'; */
     cursor: pointer;
     margin: 0px 3em;
-    font-size: 0.583em;
-    
+    font-size: 0.583em;   
 }
 
-.navLink[selected="True"]{
-    font-weight: 900;
+.navLinks a:hover{
+    color: rgb(128, 128, 128);
 }
-
 .container{
     display: flex;
     flex-direction: row;
