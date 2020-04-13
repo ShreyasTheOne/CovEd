@@ -117,6 +117,18 @@ $("document").ready(function(){
     }
 
 
+    $('#finsta').on('click', function(){
+        window.location = "https://www.instagram.com/covedindia/?igshid=byec8gpb97es";
+    }); 
+
+    $('#ffb').on('click', function(){
+        window.location = "https://www.facebook.com/CovEd-India-105360627792093/";
+    }); 
+
+    $('#fmail').on('click', function(){
+        window.location = "mailto:covedindia@gmail.com";
+    }); 
+
 });
 
 function scrollToElem(element){
