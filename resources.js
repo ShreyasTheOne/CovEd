@@ -83,6 +83,14 @@ $("document").ready(function(){
 
     $('#faqLinkS').on('click', function(){
 		window.location="https://covedindia.org/#faq"
+	});
+	
+	$('#resourcesLinkS').on('click', function(){
+        window.location="resources.html"
+    });
+
+    $('#resourcesLink').on('click', function(){
+        window.location="resources.html"
     });
 
     /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
