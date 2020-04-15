@@ -3,10 +3,10 @@
 $("document").ready(function(){
 
     window.addEventListener('scroll',function(){
-        const nav = document.getElementById('navContainer');
+        const nav = document.getElementById('navContainerx');
         var elements;
         if(window.pageYOffset>10){
-          nav.classList.add("addShadow");
+          nav.classList.add("addShadowx");
           nav.style.backgroundColor="#ffffff";
           nav.style.color = "#000000"
           elements = document.getElementsByClassName("s");
@@ -16,7 +16,7 @@ $("document").ready(function(){
           
 
         }else{
-          nav.classList.remove("addShadow");
+          nav.classList.remove("addShadowx");
           nav.style.backgroundColor="#002244"
           nav.style.color = "#ffffff";
           elements = document.getElementsByClassName("s");
@@ -25,6 +25,12 @@ $("document").ready(function(){
                 }
         }
       });
+
+    if (window.location.hash != null && window.location.hash != ''){
+        $(window).scrollTop(0);
+        scrollToElem(window.location.hash);
+    }
+     
     
 
     $("#covedNAV").on('click', function(){
@@ -33,6 +39,13 @@ $("document").ready(function(){
             scrollTop: 0
         }, duration);
         });
+
+    $("#covedIMG").on('click', function(){
+            var duration = getDuration(0);
+            $("HTML, BODY").animate({
+                scrollTop: 0
+            }, duration);
+            });
 
     $('#aboutusLink').on('click', function(){
         scrollToElem('#aboutus');
@@ -74,7 +87,7 @@ $("document").ready(function(){
     if(sideopen){
         closeNav();
     } else{
-        document.getElementById("sidenav").style.width = "250px";
+        document.getElementById("sidenavx").style.width = "250px";
         sideopen = true;
     }
     
@@ -110,10 +123,18 @@ $("document").ready(function(){
         scrollToElem('#faq')
     });
 
+    $('#resourcesLinkS').on('click', function(){
+        window.location="resources.html"
+    });
+
+    $('#resourcesLink').on('click', function(){
+        window.location="resources.html"
+    });
+
     /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
     function closeNav() {
         sideopen = false;
-        document.getElementById("sidenav").style.width = "0";
+        document.getElementById("sidenavx").style.width = "0";
     }
 
 

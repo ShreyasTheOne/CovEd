@@ -12,6 +12,7 @@
   <link href="jqueryui/jquery-ui.structure.css" rel="stylesheet"/>
   <link href="jqueryui/jquery-ui.theme.css" rel="stylesheet"/>
   <link href="styles/resources.css" rel="stylesheet"/>
+  <link href="styles/nav.css" rel="stylesheet">
   <!-- <link rel="stylesheet" href="stylesheet-navbar.css"> -->
   <script src="jquery.js">
   </script>
@@ -30,51 +31,42 @@
   </script>
  </head>
  <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-dark">
-   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-     <img src="assets/favicongolden-removebg.png"/>
-    </a>
-    <div id="image-description">
-     CovEd India
-    </div>
-    <button class="navbar-toggler" data-target="#navbarResponsive" data-toggle="collapse" type="button">
-     <span class="navbar-toggler-icon">
-     </span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-     <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-       <a class="nav-link" href="https://www.covedindia.org/#aboutus">
-        About Us
-       </a>
-      </li>
-      <li class="nav-item">
-       <a class="nav-link" href="https://www.covedindia.org/#signup">
-        Sign-up
-       </a>
-      </li>
-      <li class="nav-item">
-       <a class="nav-link" href="https://www.covedindia.org/#faq">
-        FAQ
-       </a>
-      </li>
-      <li class="nav-item">
-       <a class="nav-link" href="https://www.covedindia.org/#contactus">
-        Contact Us
-       </a>
-      </li>
-      <li class="nav-item active">
-       <a class="nav-link" href="#">
-        Resources
-       </a>
-      </li>
-     </ul>
-    </div>
-   </div>
-  </nav>
-  <!-- start descriptor -->
+  <div class="navContainerx" id="navContainerx">
+    <div class="navx">
+
+        <div class="navLogox">
+            
+            <img src="./assets/favicongolden-removebg.png" alt="logo" id="covedIMG">
+            <div id="covedNAV">CovEd India</div>
+
+        </div>
+
+        <div class="navLinksx">
+            <a class="navLinkx" id="aboutusLink">About Us</a>
+            <a class="navLinkx" id="signupLink">Sign Up</a>
+            <!-- <a class="navLinkx" id="resourcesLink">Resources</a> -->
+            <a class="navLinkx" id="faqLink">FAQ</a>
+            <a class="navLinkx" id="contactusLink">Contact Us</a>
+            
+            <div id="nav-icon3x">
+                <span class="s"></span>
+                <span class="s"></span>
+                <span class="s"></span>
+                <span class="s"></span>
+            </div>
+          </div>
+  </div>
+  <div id="sidenavx" class="sidenavx">
+      <a id="aboutusLinkS">About Us</a>
+      <a id="studentsLinkS">For Students</a>
+      <a id="mentorsLinkS">For Mentors</a>
+      <!-- <a id="resourcesLinkS">Resources</a> -->
+      <a id="faqLinkS">FAQ</a>
+      <a id="contactusLinkS">Contact Us</a>
+  </div>
+
+
+  </div>
   <div class="container text-center description">
    <div class="row">
     <div class="col-12">
