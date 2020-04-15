@@ -27,7 +27,7 @@ $("document").ready(function(){
       });
 
     if (window.location.hash != null && window.location.hash != ''){
-        $(window).scrollTop(0);
+        // $(window).scrollTop(0);
         scrollToElem(window.location.hash);
     }
      
@@ -65,11 +65,11 @@ $("document").ready(function(){
 
 
     $("#enrolbtn").on('click', function(){
-        window.location = "studentSignUp.html";
+        window.location = "https://docs.google.com/forms/d/e/1FAIpQLScd_OOcv1FZO_394vMcsuoz5gIfILqQu1ppLZK0nobGYjhk0Q/viewform";
     });
 
     $("#joinusbtn").on('click', function(){
-        window.location = "mentorSignUp.html";
+        window.location = "https://docs.google.com/forms/d/e/1FAIpQLScsQ513B06LS0M4NMl-K2CRL1oI8aORBqiBeOoqw_Qf1Vnrtw/viewform";
     });
 
     $('#studenttpbtn').on('click', function(){

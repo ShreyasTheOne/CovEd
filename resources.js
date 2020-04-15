@@ -64,33 +64,25 @@ $("document").ready(function(){
     });
 
     $('#aboutusLinkS').on('click', function(){
-        $('#nav-icon3').toggleClass('open');
-        closeNav();
-        scrollToElem('#aboutus')
+		window.location="https://covedindia.org/#aboutus"
+
     });
 
     $('#studentsLinkS').on('click', function(){
-        $('#nav-icon3').toggleClass('open');
-        closeNav();
-        scrollToElem('#studentsignup')
+		window.location="https://covedindia.org/#studentsignup"
     });
 
     $('#mentorsLinkS').on('click', function(){
-        $('#nav-icon3').toggleClass('open');
-        closeNav();
-        scrollToElem('#mentorsignup')
+		window.location="https://covedindia.org/#mentorsignup"
     });
 
     $('#contactusLinkS').on('click', function(){
-        $('#nav-icon3').toggleClass('open');
-        closeNav();
-        scrollToElem('#contactus')
+		window.location="https://covedindia.org/#contactus"
+
     });
 
     $('#faqLinkS').on('click', function(){
-        $('#nav-icon3').toggleClass('open');
-        closeNav();
-        scrollToElem('#faq')
+		window.location="https://covedindia.org/#faq"
     });
 
     /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
