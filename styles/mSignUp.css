@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     margin:0;
     padding:0;
@@ -46,7 +50,7 @@
     height:50%;
     width:100%;
     display:grid;
-    grid-template: 1fr / 1fr 1fr;
+    grid-template: 1fr / 1fr 1fr 1fr;
 }
 
 .resmsiNavBar{
@@ -70,14 +74,25 @@ a{
     justify-content: center;
     align-items: center;
 }
+#msiNavButton3{
+    grid-area: 1 / 3 / 2 / 4;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .active{
     border-bottom: 3px solid black;
 }
 .msiIframe{
     width:700px;
-    height:4000px;
-    margin:0;
+    height:90%;
     border:none;
+    position: absolute;
+}
+.respIframe{
+    display: flex;
+    justify-content: center;
 }
 
 /*responsive*/
@@ -86,9 +101,8 @@ a{
         display: none;
     }
     .resmsiNavBar{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: block;
+        text-align: center;
     }
     .resmsiNavBar a{
         color:rgb(67, 68, 0);
@@ -112,9 +126,6 @@ a{
         align-items: center;
     }
     .msiIframe{
-        width: 100%;
-        height: 5000px;
-        margin:0;
-        border:none;        
+        width: 100%;     
     }
 }
