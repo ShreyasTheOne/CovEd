@@ -38,14 +38,14 @@ $("document").ready(function(){
         $("HTML, BODY").animate({
             scrollTop: 0
         }, duration);
-        });
+    });
 
     $("#covedIMG").on('click', function(){
             var duration = getDuration(0);
             $("HTML, BODY").animate({
                 scrollTop: 0
             }, duration);
-            });
+        });
 
     $('#aboutusLink').on('click', function(){
         scrollToElem('#aboutus');
@@ -129,6 +129,14 @@ $("document").ready(function(){
 
     $('#resourcesLink').on('click', function(){
         window.location="resources.html"
+    });
+
+    $('#teamLinkS').on('click', function(){
+        window.location="aboutUs.html"
+    });
+
+    $('#teamLink').on('click', function(){
+        window.location="aboutUs.html"
     });
 
     /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */

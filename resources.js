@@ -91,6 +91,15 @@ $("document").ready(function(){
         window.location="resources.html"
     });
 
+    $('#teamLinkS').on('click', function(){
+      window.location="aboutUs.html"
+  });
+
+  $('#teamLink').on('click', function(){
+      window.location="aboutUs.html"
+  });
+
+
     /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
     function closeNav() {
         sideopen = false;
