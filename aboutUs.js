@@ -1,28 +1,28 @@
 $("document").ready(function(){
-
-    window.addEventListener('scroll',function(){
-        const nav = document.getElementById('navContainerx');
-        var elements;
-        if(window.pageYOffset>10){
-          nav.classList.add("addShadowx");
-          nav.style.backgroundColor="#ffffff";
-          nav.style.color = "#000000"
-          elements = document.getElementsByClassName("s");
-                for (var i = 0; i < elements.length; i++) {
-                    elements[i].style.backgroundColor="#000000";
-                }
+    
+    // window.addEventListener('scroll',function(){
+    //     const nav = document.getElementById('navContainerx');
+    //     var elements;
+    //     if(window.pageYOffset>10){
+    //       nav.classList.add("addShadowx");
+    //       nav.style.backgroundColor="#ffffff";
+    //       nav.style.color = "#000000"
+    //       elements = document.getElementsByClassName("s");
+    //             for (var i = 0; i < elements.length; i++) {
+    //                 elements[i].style.backgroundColor="#000000";
+    //             }
           
 
-        }else{
-          nav.classList.remove("addShadowx");
-          nav.style.backgroundColor="#002244"
-          nav.style.color = "#ffffff";
-          elements = document.getElementsByClassName("s");
-                for (var i = 0; i < elements.length; i++) {
-                    elements[i].style.backgroundColor="#ffffff";
-                }
-        }
-      });
+    //     }else{
+    //       nav.classList.remove("addShadowx");
+    //       nav.style.backgroundColor="#002244"
+    //       nav.style.color = "#ffffff";
+    //       elements = document.getElementsByClassName("s");
+    //             for (var i = 0; i < elements.length; i++) {
+    //                 elements[i].style.backgroundColor="#ffffff";
+    //             }
+    //     }
+    //   });
     
 
     $("#covedNAV").on('click', function(){
