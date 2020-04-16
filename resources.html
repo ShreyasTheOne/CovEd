@@ -12,6 +12,7 @@
   <link href="jqueryui/jquery-ui.structure.css" rel="stylesheet"/>
   <link href="jqueryui/jquery-ui.theme.css" rel="stylesheet"/>
   <link href="styles/resources.css" rel="stylesheet"/>
+  <link href="styles/nav.css" rel="stylesheet">
   <!-- <link rel="stylesheet" href="stylesheet-navbar.css"> -->
   <script src="jquery.js">
   </script>
@@ -26,55 +27,45 @@
   <script crossorigin="anonymous" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
   </script>
   <!-- <script src="addInView.js"></script> -->
-  <script src="resources.js">
+  <script src="main.js">
   </script>
  </head>
  <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-dark">
-   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-     <img src="assets/favicongolden-removebg.png"/>
-    </a>
-    <div id="image-description">
-     CovEd India
+  <div class="navContainerx" id="navContainerx">
+    <div class="navx">
+
+        <div class="navLogox">
+            
+            <img src="./assets/favicongolden-removebg.png" alt="logo" id="covedIMG">
+            <div id="covedNAV">CovEd India</div>
+
+        </div>
+
+        <div class="navLinksx">
+            <a class="navLinkx" id="aboutusLink">About Us</a>
+            <a class="navLinkx" id="signupLink">Sign Up</a>
+            <a class="navLinkx" id="resourcesLink">Resources</a>
+            <a class="navLinkx" id="faqLink">FAQ</a>
+            <a class="navLinkx" id="contactusLink">Contact Us</a>
+            
+            <div id="nav-icon3">
+                <span class="s"></span>
+                <span class="s"></span>
+                <span class="s"></span>
+                <span class="s"></span>
+            </div>
+          </div>
+        </div>
     </div>
-    <button class="navbar-toggler" data-target="#navbarResponsive" data-toggle="collapse" type="button">
-     <span class="navbar-toggler-icon">
-     </span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-     <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-       <a class="nav-link" href="https://www.covedindia.org/#aboutus">
-        About Us
-       </a>
-      </li>
-      <li class="nav-item">
-       <a class="nav-link" href="https://www.covedindia.org/#signup">
-        Sign-up
-       </a>
-      </li>
-      <li class="nav-item">
-       <a class="nav-link" href="https://www.covedindia.org/#faq">
-        FAQ
-       </a>
-      </li>
-      <li class="nav-item">
-       <a class="nav-link" href="https://www.covedindia.org/#contactus">
-        Contact Us
-       </a>
-      </li>
-      <li class="nav-item active">
-       <a class="nav-link" href="#">
-        Resources
-       </a>
-      </li>
-     </ul>
-    </div>
-   </div>
-  </nav>
-  <!-- start descriptor -->
+    <div id="sidenavx" class="sidenavx">
+      <a id="aboutusLinkS">About Us</a>
+      <a id="studentsLinkS">For Students</a>
+      <a id="mentorsLinkS">For Mentors</a>
+      <a id="resourcesLinkS">Resources</a>
+      <a id="faqLinkS">FAQ</a>
+      <a id="contactusLinkS">Contact Us</a>
+  </div>
+  
   <div class="container text-center description">
    <div class="row">
     <div class="col-12">
@@ -154,26 +145,32 @@
             <a href="https://www.coursera.org/">
              Coursera
             </a>
+            offers massive open online courses, specializations, and degrees.
            </li>
            <li>
             <a href="https://ocw.mit.edu/index.htm">
              MIT Opencourseware
             </a>
+            Love to learn? Check out MIT OCW for amazing courses from the best technological institute of the World!
            </li>
            <li>
             <a href="https://artofproblemsolving.com/">
              AoPS
             </a>
+            : Practice prealgebra, algebra, geoemtry, and more!
            </li>
            <li>
             <a href="https://www.edx.org/">
              eDX
             </a>
+            contains online university-level courses in a wide range of disciplines. Go check them out!
+            
            </li>
            <li>
             <a href="https://oyc.yale.edu/">
              Yale Opencourseware
             </a>
+            : provides free and open access to a selection of introductory courses taught by distinguished teachers and scholars at Yale University.
            </li>
           </ul>
          </div>
@@ -198,21 +195,26 @@
             <a href="https://www.khanacademy.org/math">
              Khan Academy Math
             </a>
+            : Like to learn Math in an intuitive way? Then it is the perfect place for you.
            </li>
            <li>
             <a href="https://brilliant.org/">
              Brilliant
             </a>
+            : Want to exercise your brain cells? Go ahead!
            </li>
            <li>
             <a href="https://creativemaths.net/statistics-learning-centre-details/">
              Statistics Learning Center
             </a>
+            provides videos, quizzes and activities to help high school and college students learn statistics.
            </li>
            <li>
             <a href="https://artofproblemsolving.com/alcumus">
              AoPS Alcumus
             </a>
+            : Practice prealgebra, algebra, geometry and more!
+            : Practice prealgebra, algebra, geoemtry, and more!
            </li>
            <li>
             <a href="https://mathpickle.com/organized-by-grade/">
@@ -230,26 +232,31 @@
             <a href="https://www.zooniverse.org/">
              Zooniverse
             </a>
+            allows you to take part in real cutting edge research in many fields.
            </li>
            <li>
             <a href="https://science.nasa.gov/citizenscience">
              Nasa Citizen Science
             </a>
+            allows you to help make important scientific discoveries.
            </li>
            <li>
             <a href="http://nanodoc.org/">
              Nanodoc Game
             </a>
+            Design new nanoparticle strategies and nanovehicles to kill tumors.
            </li>
            <li>
             <a href="https://biogames.ee.ucla.edu/">
              Malaria Training Game
             </a>
+            : Help diagnose pathologies by examining microscopic data.
            </li>
            <li>
             <a href="https://www.nationalgeographic.org/education/student-experiences/explorer-classroom/">
              Explorer Classroom
             </a>
+            has live video events connect students with National Geographic Explorers across all seven continents to bring exploration to life.
            </li>
           </ul>
          </div>
@@ -262,81 +269,99 @@
             <a href="https://nptel.ac.in/">
              NPTEL
             </a>
+            provides E-learning through online Web and Video courses various streams.
            </li>
            <li>
             <a href="https://www.youtube.com/results?search_query=3b1b">
              3 Blue 1 Brown
             </a>
+            :  ever tried learning math from a visual perspective? Want to fall in love with math? Check out this channel!
            </li>
            <li>
             <a href="https://www.coursera.org/">
              Coursera
             </a>
+            offers massive open online courses, specializations, and degrees.
            </li>
            <li>
             <a href="https://www.udemy.com/">
              Udemy
             </a>
+            is an online learning and teaching marketplace with over 100000 courses.
            </li>
            <li>
             <a href="https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q">
              Dev Ed
             </a>
+            : Learn web development, web design, 3d modelling, tools like figma and more without getting bored!
            </li>
            <li>
             <a href="https://www.youtube.com/user/javaboynavin">
              Telusko
             </a>
+            contains free programming tutorials from beginner to advanced level.
            </li>
            <li>
             <a href="https://ocw.mit.edu/index.htm">
              MIT Opencourseware
             </a>
+            Love to learn? Check out MIT OCW for amazing courses from the best technological institute of the World!
            </li>
            <li>
             <a href="https://artofproblemsolving.com/">
              AoPS
             </a>
+            : Practice prealgebra, algebra, geoemtry, and more!
            </li>
            <li>
             <a href="https://www.edx.org/">
              eDX
             </a>
+            contains online university-level courses in a wide range of disciplines. Go check them out!
+            
            </li>
            <li>
             <a href="https://oyc.yale.edu/">
              Yale Opencourseware
             </a>
+            : provides free and open access to a selection of introductory courses taught by distinguished teachers and scholars at Yale University.
            </li>
            <li>
             <a href="https://www.codechef.com/">
              Codechef
             </a>
+            : Want to do amazing comeptitive coding problems?
            </li>
            <li>
             <a href="https://www.hackerearth.com/">
              Hackerearth
             </a>
+            has a collection of theory and problems related to competitive coding.
            </li>
            <li>
             <a href="https://www.compuscholar.com/schools">
              CompuScholar
             </a>
+            publishes online computer science and digital literacy courses aligned to state standards.
            </li>
            <li>
             <a href="https://educode.org/">
              Educode
             </a>
+            offers self-directed courses that have video micro-lessons with fun and engaging exercises. Rich storylines provide context and motivation throughout the learning journey.
            </li>
            <li>
             <a href="https://academy.cs.cmu.edu/splash">
              Carnegie Mellon Univeristy's Computer Science Splash
             </a>
+            provides a free, online, interactive textbook for teaching computer science in classrooms.
+            9
            </li>
            <li>
             <a href="https://www.codelicious.com/free-teacher-resources">
-              Codelicious
+             Codelicious
             </a>
+            offers a computer science curriculum for K-12.
            </li>
           </ul>
          </div>
@@ -391,26 +416,31 @@
             <a href="https://nptel.ac.in/">
              NPTEL
             </a>
+            provides E-learning through online Web and Video courses various streams.
            </li>
            <li>
             <a href="https://www.youtube.com/user/PradeepKshetrapal">
              Pradeep Kshetarpal
             </a>
+            : This youtube channel contains physics videos on all chapters of class 11 and 12.
            </li>
            <li>
             <a href="https://www.youtube.com/user/physicsgalaxy74">
              Physics Galaxy
             </a>
+            teaches physics for competitive exams.
            </li>
            <li>
             <a href="https://olympiads.hbcse.tifr.res.in/">
              Olympiads
             </a>
+            : This link contains the previous year olympiad papers and their solutions.
            </li>
            <li>
             <a href="https://www.coursera.org/">
              Coursera
             </a>
+            offers massive open online courses, specializations, and degrees.
            </li>
            <li>
             <a href="https://aglasem.com/">
@@ -421,31 +451,38 @@
             <a href="https://www.youtube.com/user/minutephysics">
              Minute Physics
             </a>
+            : Simply put: cool physics and other sweet science.
            </li>
            <li>
             <a href="https://www.youtube.com/user/1veritasium">
              Veritasium
             </a>
+            is a channel of science and engineering videos featuring experiments, expert interviews, cool demos, and discussions with the public about everything science.
            </li>
            <li>
             <a href="https://ocw.mit.edu/index.htm">
              MIT Opencourseware
             </a>
+            Love to learn? Check out MIT OCW for amazing courses from the best technological institute of the World!
            </li>
            <li>
             <a href="https://artofproblemsolving.com/">
              AoPS
             </a>
+            : Practice prealgebra, algebra, geoemtry, and more!
            </li>
            <li>
             <a href="https://www.edx.org/">
              eDX
             </a>
+            contains online university-level courses in a wide range of disciplines. Go check them out!
+            
            </li>
            <li>
             <a href="https://oyc.yale.edu/">
              Yale Opencourseware
             </a>
+            : provides free and open access to a selection of introductory courses taught by distinguished teachers and scholars at Yale University.
            </li>
            <li>
             <a href="https://www.khanacademy.org/science/in-in-class-12th-physics-india">
@@ -485,16 +522,19 @@
             <a href="https://olympiads.hbcse.tifr.res.in/">
              Olympiads
             </a>
+            : This link contains the previous year olympiad papers and their solutions.
            </li>
            <li>
             <a href="https://www.coursera.org/">
              Coursera
             </a>
+            offers massive open online courses, specializations, and degrees.
            </li>
            <li>
             <a href="https://www.youtube.com/channel/UCwdvPgmU5qHPB2NsDLAmS1g">
              Any Time Padhai
             </a>
+            is a "Kota based online IIT JEE &amp; NEET Learning platform". Check out their chemistry videos!
            </li>
            <li>
             <a href="https://aglasem.com/">
@@ -505,26 +545,32 @@
             <a href="https://ocw.mit.edu/index.htm">
              MIT Opencourseware
             </a>
+            Love to learn? Check out MIT OCW for amazing courses from the best technological institute of the World!
            </li>
            <li>
             <a href="https://artofproblemsolving.com/">
              AoPS
             </a>
+            : Practice prealgebra, algebra, geoemtry, and more!
            </li>
            <li>
             <a href="https://www.edx.org/">
              eDX
             </a>
+            contains online university-level courses in a wide range of disciplines. Go check them out!
+            
            </li>
            <li>
             <a href="https://oyc.yale.edu/">
              Yale Opencourseware
             </a>
+            : provides free and open access to a selection of introductory courses taught by distinguished teachers and scholars at Yale University.
            </li>
            <li>
             <a href="https://www.khanacademy.org/science/class-11-chemistry-india">
              Khan Academy Chemistry
             </a>
+            teaches chemistry concepts in an interactive manner.
            </li>
            <li>
             <a href="https://www.studiestoday.com/cbse-class-xii-chemistry-447.html">
@@ -564,31 +610,37 @@
             <a href="https://nptel.ac.in/">
              NPTEL
             </a>
+            provides E-learning through online Web and Video courses various streams.
            </li>
            <li>
             <a href="https://www.youtube.com/results?search_query=3b1b">
              3 Blue 1 Brown
             </a>
+            :  ever tried learning math from a visual perspective? Want to fall in love with math? Check out this channel!
            </li>
            <li>
             <a href="https://www.maa.org/math-competitions/putnam-competition">
              Putnam Papers
             </a>
+            contains past year papers and solutions for the world's hardest math exam, Putnam. Happy Solving!
            </li>
            <li>
             <a href="https://canvas.stanford.edu/courses/46752/pages/the-william-lowell-putnam-competition-and-the-polya-problem-solving-seminar">
              Stanford Putnam Resources
             </a>
+            contains challenging math problems. Do check them out if you want to exercise your brain cells!
            </li>
            <li>
             <a href="https://olympiads.hbcse.tifr.res.in/">
              Olympiads
             </a>
+            : This link contains the previous year olympiad papers and their solutions.
            </li>
            <li>
             <a href="https://www.coursera.org/">
              Coursera
             </a>
+            offers massive open online courses, specializations, and degrees.
            </li>
            <li>
             <a href="https://aglasem.com/">
@@ -599,21 +651,26 @@
             <a href="https://ocw.mit.edu/index.htm">
              MIT Opencourseware
             </a>
+            Love to learn? Check out MIT OCW for amazing courses from the best technological institute of the World!
            </li>
            <li>
             <a href="https://artofproblemsolving.com/">
              AoPS
             </a>
+            : Practice prealgebra, algebra, geoemtry, and more!
            </li>
            <li>
             <a href="https://www.edx.org/">
              eDX
             </a>
+            contains online university-level courses in a wide range of disciplines. Go check them out!
+            
            </li>
            <li>
             <a href="https://oyc.yale.edu/">
              Yale Opencourseware
             </a>
+            : provides free and open access to a selection of introductory courses taught by distinguished teachers and scholars at Yale University.
            </li>
            <li>
             <a href="https://www.mathongo.com/">
@@ -624,6 +681,7 @@
             <a href="https://www.khanacademy.org/math/in-in-grade-12-ncert">
              Khan Academy Math
             </a>
+            : Like to learn Math in an intuitive way? Then it is the perfect place for you.
            </li>
            <li>
             <a href="https://www.studiestoday.com/worksheets/310/mathematics.html">
@@ -700,26 +758,31 @@
             <a href="https://nptel.ac.in/">
              NPTEL
             </a>
+            provides E-learning through online Web and Video courses various streams.
            </li>
            <li>
             <a href="https://www.youtube.com/user/PradeepKshetrapal">
              Pradeep Kshetarpal
             </a>
+            : This youtube channel contains physics videos on all chapters of class 11 and 12.
            </li>
            <li>
             <a href="https://www.youtube.com/user/physicsgalaxy74">
              Physics Galaxy
             </a>
+            teaches physics for competitive exams.
            </li>
            <li>
             <a href="https://olympiads.hbcse.tifr.res.in/">
              Olympiads
             </a>
+            : This link contains the previous year olympiad papers and their solutions.
            </li>
            <li>
             <a href="https://www.coursera.org/">
              Coursera
             </a>
+            offers massive open online courses, specializations, and degrees.
            </li>
            <li>
             <a href="https://aglasem.com/">
@@ -730,31 +793,38 @@
             <a href="https://www.youtube.com/user/minutephysics">
              Minute Physics
             </a>
+            : Simply put: cool physics and other sweet science.
            </li>
            <li>
             <a href="https://www.youtube.com/user/1veritasium">
              Veritasium
             </a>
+            is a channel of science and engineering videos featuring experiments, expert interviews, cool demos, and discussions with the public about everything science.
            </li>
            <li>
             <a href="https://ocw.mit.edu/index.htm">
              MIT Opencourseware
             </a>
+            Love to learn? Check out MIT OCW for amazing courses from the best technological institute of the World!
            </li>
            <li>
             <a href="https://artofproblemsolving.com/">
              AoPS
             </a>
+            : Practice prealgebra, algebra, geoemtry, and more!
            </li>
            <li>
             <a href="https://www.edx.org/">
              eDX
             </a>
+            contains online university-level courses in a wide range of disciplines. Go check them out!
+            
            </li>
            <li>
             <a href="https://oyc.yale.edu/">
              Yale Opencourseware
             </a>
+            : provides free and open access to a selection of introductory courses taught by distinguished teachers and scholars at Yale University.
            </li>
            <li>
             <a href="https://www.khanacademy.org/science/in-in-class-12th-physics-india">
@@ -794,16 +864,19 @@
             <a href="https://olympiads.hbcse.tifr.res.in/">
              Olympiads
             </a>
+            : This link contains the previous year olympiad papers and their solutions.
            </li>
            <li>
             <a href="https://www.coursera.org/">
              Coursera
             </a>
+            offers massive open online courses, specializations, and degrees.
            </li>
            <li>
             <a href="https://www.youtube.com/channel/UCwdvPgmU5qHPB2NsDLAmS1g">
              Any Time Padhai
             </a>
+            is a "Kota based online IIT JEE &amp; NEET Learning platform". Check out their chemistry videos!
            </li>
            <li>
             <a href="https://aglasem.com/">
@@ -814,26 +887,32 @@
             <a href="https://ocw.mit.edu/index.htm">
              MIT Opencourseware
             </a>
+            Love to learn? Check out MIT OCW for amazing courses from the best technological institute of the World!
            </li>
            <li>
             <a href="https://artofproblemsolving.com/">
              AoPS
             </a>
+            : Practice prealgebra, algebra, geoemtry, and more!
            </li>
            <li>
             <a href="https://www.edx.org/">
              eDX
             </a>
+            contains online university-level courses in a wide range of disciplines. Go check them out!
+            
            </li>
            <li>
             <a href="https://oyc.yale.edu/">
              Yale Opencourseware
             </a>
+            : provides free and open access to a selection of introductory courses taught by distinguished teachers and scholars at Yale University.
            </li>
            <li>
             <a href="https://www.khanacademy.org/science/class-11-chemistry-india">
              Khan Academy Chemistry
             </a>
+            teaches chemistry concepts in an interactive way.
            </li>
            <li>
             <a href="https://www.studiestoday.com/cbse-class-xii-chemistry-447.html">
@@ -865,8 +944,42 @@
         </div>
         <div aria-labelledby="bio-tab" class="tab-pane fade" id="bio" role="tabpanel">
          <p class="resources">
-          Resources for Biology coming soon!
+          Check out the following resources for Biology!
          </p>
+         <div class="links">
+          <ul>
+           <li>
+            <a href="https://www.exambazaar.com/blogpost/top-online-study-resources-and-test-series-for-neet">
+             NEET Resources and Mock Test
+            </a>
+           </li>
+           <li>
+            <a href="https://mystudycart.com/aipmt-past-year-papers-free-download">
+             NEET Past Papers
+            </a>
+           </li>
+           <li>
+            <a href="https://www.emedicalprep.com/free-lesson-for-aipmt/">
+             Tips and Trick for NEET Aspirants
+            </a>
+           </li>
+           <li>
+            <a href="https://www.embibe.com/exams/neet-mock-tests/">
+             Free NEET Mock Tests
+            </a>
+           </li>
+           <li>
+            <a href="https://byjus.com/ncert-solutions-class-12-biology/">
+             Biology Class 12 Solutions to NCERT
+            </a>
+           </li>
+           <li>
+            <a href="https://www.embibe.com/exams/cbse-ncert-solutions-for-class-12-biology/">
+             Free Resources for NEET and NCERT
+            </a>
+           </li>
+          </ul>
+         </div>
         </div>
        </div>
       </div>
@@ -937,20 +1050,55 @@
             <a href="https://www.coursera.org/">
              Coursera
             </a>
+            offers massive open online courses, specializations, and degrees.
            </li>
            <li>
             <a href="https://ocw.mit.edu/index.htm">
              MIT Opencourseware
             </a>
+            Love to learn? Check out MIT OCW for amazing courses from the best technological institute of the World!
            </li>
            <li>
             <a href="https://oyc.yale.edu/">
              Yale Opencourseware
             </a>
+            : provides free and open access to a selection of introductory courses taught by distinguished teachers and scholars at Yale University.
            </li>
            <li>
             <a href="https://www.edx.org/">
              eDX
+            </a>
+            contains online university-level courses in a wide range of disciplines. Go check them out!
+            
+           </li>
+           <li>
+            <a href="https://www.extramarks.com/study-material/icse-class-12/commerce">
+             Extramarks Commerce Resources
+            </a>
+           </li>
+           <li>
+            <a href="https://www.indiaeducation.net/cbse/class-12/commerce/">
+             Commerce Syllabus, Tips and more
+            </a>
+           </li>
+           <li>
+            <a href="https://www.tcyonline.com/tests/bba-entrance">
+             Free Online BBA ENTRANCE Practice &amp; Preparation Tests
+            </a>
+           </li>
+           <li>
+            <a href="https://www.mbauniverse.com/bba/exams">
+             BBA Entrance exam information
+            </a>
+           </li>
+           <li>
+            <a href="https://grad.hitbullseye.com/BBA-Study-Material.php">
+             BBA Study Material and Links
+            </a>
+           </li>
+           <li>
+            <a href="https://www.endeavorcareers.com/iendeavor/bba-online/">
+             BBA Mock Tests and Courses by Endeavor
             </a>
            </li>
           </ul>
@@ -1005,8 +1153,27 @@
         <!-- Arts Subject 1 -->
         <div aria-labelledby="arts-sub1-tab" class="tab-pane fade show active" id="arts-sub1" role="tabpanel">
          <p class="resources">
-          Resources Coming Soon!
+          Here we have collected some resources that we hope will be helpful to continuing your education.!
          </p>
+         <div class="links">
+          <ul>
+           <li>
+            <a href="https://www.prep.youth4work.com/college-entrance-examination/hsee-test">
+             HSEE Mock Test
+            </a>
+           </li>
+           <li>
+            <a href="https://www.learncbse.in/cbse-class-12-humanities/">
+             Humanities Class 12 NCERT Solution
+            </a>
+           </li>
+           <li>
+            <a href="https://www.meritnation.com/cbse-class-12-humanities/71">
+             Meritnation Class 12 Humanities Resource
+            </a>
+           </li>
+          </ul>
+         </div>
         </div>
         <!-- Arts Subject 2 -->
         <div aria-labelledby="arts-sub2-tab" class="tab-pane fade" id="arts-sub2" role="tabpanel">
@@ -1078,26 +1245,32 @@
          <a href="https://www.coursera.org/">
           Coursera
          </a>
+         offers massive open online courses, specializations, and degrees.
         </li>
         <li>
          <a href="https://ocw.mit.edu/index.htm">
           MIT Opencourseware
          </a>
+         Love to learn? Check out MIT OCW for amazing courses from the best technological institute of the World!
         </li>
         <li>
          <a href="https://artofproblemsolving.com/">
           AoPS
          </a>
+         : Practice prealgebra, algebra, geoemtry, and more!
         </li>
         <li>
          <a href="https://www.edx.org/">
           eDX
          </a>
+         contains online university-level courses in a wide range of disciplines. Go check them out!
+         
         </li>
         <li>
          <a href="https://oyc.yale.edu/">
           Yale Opencourseware
          </a>
+         : provides free and open access to a selection of introductory courses taught by distinguished teachers and scholars at Yale University.
         </li>
        </ul>
       </div>
@@ -1125,21 +1298,26 @@
          <a href="https://www.khanacademy.org/math">
           Khan Academy Math
          </a>
+         : Like to learn Math in an intuitive way? Then it is the perfect place for you.
         </li>
         <li>
          <a href="https://brilliant.org/">
           Brilliant
          </a>
+         : Want to exercise your brain cells? Go ahead!
         </li>
         <li>
          <a href="https://creativemaths.net/statistics-learning-centre-details/">
           Statistics Learning Center
          </a>
+         provides videos, quizzes and activities to help high school and college students learn statistics.
         </li>
         <li>
          <a href="https://artofproblemsolving.com/alcumus">
           AoPS Alcumus
          </a>
+         : Practice prealgebra, algebra, geometry and more!
+         : Practice prealgebra, algebra, geoemtry, and more!
         </li>
         <li>
          <a href="https://mathpickle.com/organized-by-grade/">
@@ -1160,26 +1338,31 @@
          <a href="https://www.zooniverse.org/">
           Zooniverse
          </a>
+         allows you to take part in real cutting edge research in many fields.
         </li>
         <li>
          <a href="https://science.nasa.gov/citizenscience">
           Nasa Citizen Science
          </a>
+         allows you to help make important scientific discoveries.
         </li>
         <li>
          <a href="http://nanodoc.org/">
           Nanodoc Game
          </a>
+         Design new nanoparticle strategies and nanovehicles to kill tumors.
         </li>
         <li>
          <a href="https://biogames.ee.ucla.edu/">
           Malaria Training Game
          </a>
+         : Help diagnose pathologies by examining microscopic data.
         </li>
         <li>
          <a href="https://www.nationalgeographic.org/education/student-experiences/explorer-classroom/">
           Explorer Classroom
          </a>
+         has live video events connect students with National Geographic Explorers across all seven continents to bring exploration to life.
         </li>
        </ul>
       </div>
@@ -1195,81 +1378,99 @@
          <a href="https://nptel.ac.in/">
           NPTEL
          </a>
+         provides E-learning through online Web and Video courses various streams.
         </li>
         <li>
          <a href="https://www.youtube.com/results?search_query=3b1b">
           3 Blue 1 Brown
          </a>
+         :  ever tried learning math from a visual perspective? Want to fall in love with math? Check out this channel!
         </li>
         <li>
          <a href="https://www.coursera.org/">
           Coursera
          </a>
+         offers massive open online courses, specializations, and degrees.
         </li>
         <li>
          <a href="https://www.udemy.com/">
           Udemy
          </a>
+         is an online learning and teaching marketplace with over 100000 courses.
         </li>
         <li>
          <a href="https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q">
           Dev Ed
          </a>
+         : Learn web development, web design, 3d modelling, tools like figma and more without getting bored!
         </li>
         <li>
          <a href="https://www.youtube.com/user/javaboynavin">
           Telusko
          </a>
+         contains free programming tutorials from beginner to advanced level.
         </li>
         <li>
          <a href="https://ocw.mit.edu/index.htm">
           MIT Opencourseware
          </a>
+         Love to learn? Check out MIT OCW for amazing courses from the best technological institute of the World!
         </li>
         <li>
          <a href="https://artofproblemsolving.com/">
           AoPS
          </a>
+         : Practice prealgebra, algebra, geoemtry, and more!
         </li>
         <li>
          <a href="https://www.edx.org/">
           eDX
          </a>
+         contains online university-level courses in a wide range of disciplines. Go check them out!
+         
         </li>
         <li>
          <a href="https://oyc.yale.edu/">
           Yale Opencourseware
          </a>
+         : provides free and open access to a selection of introductory courses taught by distinguished teachers and scholars at Yale University.
         </li>
         <li>
          <a href="https://www.codechef.com/">
           Codechef
          </a>
+         : Want to do amazing comeptitive coding problems?
         </li>
         <li>
          <a href="https://www.hackerearth.com/">
           Hackerearth
          </a>
+         has a collection of theory and problems related to competitive coding.
         </li>
         <li>
          <a href="https://www.compuscholar.com/schools">
           CompuScholar
          </a>
+         publishes online computer science and digital literacy courses aligned to state standards.
         </li>
         <li>
          <a href="https://educode.org/">
           Educode
          </a>
+         offers self-directed courses that have video micro-lessons with fun and engaging exercises. Rich storylines provide context and motivation throughout the learning journey.
         </li>
         <li>
          <a href="https://academy.cs.cmu.edu/splash">
           Carnegie Mellon Univeristy's Computer Science Splash
          </a>
+         provides a free, online, interactive textbook for teaching computer science in classrooms.
+         9
         </li>
         <li>
          <a href="https://www.codelicious.com/free-teacher-resources">
-           Codelicious
+          Codelicious
          </a>
+         offers a computer science curriculum for K-12.
         </li>
        </ul>
       </div>
@@ -1325,26 +1526,31 @@
          <a href="https://nptel.ac.in/">
           NPTEL
          </a>
+         provides E-learning through online Web and Video courses various streams.
         </li>
         <li>
          <a href="https://www.youtube.com/user/PradeepKshetrapal">
           Pradeep Kshetarpal
          </a>
+         : This youtube channel contains physics videos on all chapters of class 11 and 12.
         </li>
         <li>
          <a href="https://www.youtube.com/user/physicsgalaxy74">
           Physics Galaxy
          </a>
+         teaches physics for competitive exams.
         </li>
         <li>
          <a href="https://olympiads.hbcse.tifr.res.in/">
           Olympiads
          </a>
+         : This link contains the previous year olympiad papers and their solutions.
         </li>
         <li>
          <a href="https://www.coursera.org/">
           Coursera
          </a>
+         offers massive open online courses, specializations, and degrees.
         </li>
         <li>
          <a href="https://aglasem.com/">
@@ -1355,31 +1561,38 @@
          <a href="https://www.youtube.com/user/minutephysics">
           Minute Physics
          </a>
+         : Simply put: cool physics and other sweet science.
         </li>
         <li>
          <a href="https://www.youtube.com/user/1veritasium">
           Veritasium
          </a>
+         is a channel of science and engineering videos featuring experiments, expert interviews, cool demos, and discussions with the public about everything science.
         </li>
         <li>
          <a href="https://ocw.mit.edu/index.htm">
           MIT Opencourseware
          </a>
+         Love to learn? Check out MIT OCW for amazing courses from the best technological institute of the World!
         </li>
         <li>
          <a href="https://artofproblemsolving.com/">
           AoPS
          </a>
+         : Practice prealgebra, algebra, geoemtry, and more!
         </li>
         <li>
          <a href="https://www.edx.org/">
           eDX
          </a>
+         contains online university-level courses in a wide range of disciplines. Go check them out!
+         
         </li>
         <li>
          <a href="https://oyc.yale.edu/">
           Yale Opencourseware
          </a>
+         : provides free and open access to a selection of introductory courses taught by distinguished teachers and scholars at Yale University.
         </li>
         <li>
          <a href="https://www.khanacademy.org/science/in-in-class-12th-physics-india">
@@ -1419,16 +1632,19 @@
          <a href="https://olympiads.hbcse.tifr.res.in/">
           Olympiads
          </a>
+         : This link contains the previous year olympiad papers and their solutions.
         </li>
         <li>
          <a href="https://www.coursera.org/">
           Coursera
          </a>
+         offers massive open online courses, specializations, and degrees.
         </li>
         <li>
          <a href="https://www.youtube.com/channel/UCwdvPgmU5qHPB2NsDLAmS1g">
           Any Time Padhai
          </a>
+         is a "Kota based online IIT JEE &amp; NEET Learning platform". Check out their chemistry videos!
         </li>
         <li>
          <a href="https://aglasem.com/">
@@ -1439,26 +1655,32 @@
          <a href="https://ocw.mit.edu/index.htm">
           MIT Opencourseware
          </a>
+         Love to learn? Check out MIT OCW for amazing courses from the best technological institute of the World!
         </li>
         <li>
          <a href="https://artofproblemsolving.com/">
           AoPS
          </a>
+         : Practice prealgebra, algebra, geoemtry, and more!
         </li>
         <li>
          <a href="https://www.edx.org/">
           eDX
          </a>
+         contains online university-level courses in a wide range of disciplines. Go check them out!
+         
         </li>
         <li>
          <a href="https://oyc.yale.edu/">
           Yale Opencourseware
          </a>
+         : provides free and open access to a selection of introductory courses taught by distinguished teachers and scholars at Yale University.
         </li>
         <li>
          <a href="https://www.khanacademy.org/science/class-11-chemistry-india">
           Khan Academy Chemistry
          </a>
+         teaches chemistry concepts in an interactive manner.
         </li>
         <li>
          <a href="https://www.studiestoday.com/cbse-class-xii-chemistry-447.html">
@@ -1498,31 +1720,37 @@
          <a href="https://nptel.ac.in/">
           NPTEL
          </a>
+         provides E-learning through online Web and Video courses various streams.
         </li>
         <li>
          <a href="https://www.youtube.com/results?search_query=3b1b">
           3 Blue 1 Brown
          </a>
+         :  ever tried learning math from a visual perspective? Want to fall in love with math? Check out this channel!
         </li>
         <li>
          <a href="https://www.maa.org/math-competitions/putnam-competition">
           Putnam Papers
          </a>
+         contains past year papers and solutions for the world's hardest math exam, Putnam. Happy Solving!
         </li>
         <li>
          <a href="https://canvas.stanford.edu/courses/46752/pages/the-william-lowell-putnam-competition-and-the-polya-problem-solving-seminar">
           Stanford Putnam Resources
          </a>
+         contains challenging math problems. Do check them out if you want to exercise your brain cells!
         </li>
         <li>
          <a href="https://olympiads.hbcse.tifr.res.in/">
           Olympiads
          </a>
+         : This link contains the previous year olympiad papers and their solutions.
         </li>
         <li>
          <a href="https://www.coursera.org/">
           Coursera
          </a>
+         offers massive open online courses, specializations, and degrees.
         </li>
         <li>
          <a href="https://aglasem.com/">
@@ -1533,21 +1761,26 @@
          <a href="https://ocw.mit.edu/index.htm">
           MIT Opencourseware
          </a>
+         Love to learn? Check out MIT OCW for amazing courses from the best technological institute of the World!
         </li>
         <li>
          <a href="https://artofproblemsolving.com/">
           AoPS
          </a>
+         : Practice prealgebra, algebra, geoemtry, and more!
         </li>
         <li>
          <a href="https://www.edx.org/">
           eDX
          </a>
+         contains online university-level courses in a wide range of disciplines. Go check them out!
+         
         </li>
         <li>
          <a href="https://oyc.yale.edu/">
           Yale Opencourseware
          </a>
+         : provides free and open access to a selection of introductory courses taught by distinguished teachers and scholars at Yale University.
         </li>
         <li>
          <a href="https://www.mathongo.com/">
@@ -1558,6 +1791,7 @@
          <a href="https://www.khanacademy.org/math/in-in-grade-12-ncert">
           Khan Academy Math
          </a>
+         : Like to learn Math in an intuitive way? Then it is the perfect place for you.
         </li>
         <li>
          <a href="https://www.studiestoday.com/worksheets/310/mathematics.html">
@@ -1632,26 +1866,31 @@
          <a href="https://nptel.ac.in/">
           NPTEL
          </a>
+         provides E-learning through online Web and Video courses various streams.
         </li>
         <li>
          <a href="https://www.youtube.com/user/PradeepKshetrapal">
           Pradeep Kshetarpal
          </a>
+         : This youtube channel contains physics videos on all chapters of class 11 and 12.
         </li>
         <li>
          <a href="https://www.youtube.com/user/physicsgalaxy74">
           Physics Galaxy
          </a>
+         teaches physics for competitive exams.
         </li>
         <li>
          <a href="https://olympiads.hbcse.tifr.res.in/">
           Olympiads
          </a>
+         : This link contains the previous year olympiad papers and their solutions.
         </li>
         <li>
          <a href="https://www.coursera.org/">
           Coursera
          </a>
+         offers massive open online courses, specializations, and degrees.
         </li>
         <li>
          <a href="https://aglasem.com/">
@@ -1662,31 +1901,38 @@
          <a href="https://www.youtube.com/user/minutephysics">
           Minute Physics
          </a>
+         : Simply put: cool physics and other sweet science.
         </li>
         <li>
          <a href="https://www.youtube.com/user/1veritasium">
           Veritasium
          </a>
+         is a channel of science and engineering videos featuring experiments, expert interviews, cool demos, and discussions with the public about everything science.
         </li>
         <li>
          <a href="https://ocw.mit.edu/index.htm">
           MIT Opencourseware
          </a>
+         Love to learn? Check out MIT OCW for amazing courses from the best technological institute of the World!
         </li>
         <li>
          <a href="https://artofproblemsolving.com/">
           AoPS
          </a>
+         : Practice prealgebra, algebra, geoemtry, and more!
         </li>
         <li>
          <a href="https://www.edx.org/">
           eDX
          </a>
+         contains online university-level courses in a wide range of disciplines. Go check them out!
+         
         </li>
         <li>
          <a href="https://oyc.yale.edu/">
           Yale Opencourseware
          </a>
+         : provides free and open access to a selection of introductory courses taught by distinguished teachers and scholars at Yale University.
         </li>
         <li>
          <a href="https://www.khanacademy.org/science/in-in-class-12th-physics-india">
@@ -1726,16 +1972,19 @@
          <a href="https://olympiads.hbcse.tifr.res.in/">
           Olympiads
          </a>
+         : This link contains the previous year olympiad papers and their solutions.
         </li>
         <li>
          <a href="https://www.coursera.org/">
           Coursera
          </a>
+         offers massive open online courses, specializations, and degrees.
         </li>
         <li>
          <a href="https://www.youtube.com/channel/UCwdvPgmU5qHPB2NsDLAmS1g">
           Any Time Padhai
          </a>
+         is a "Kota based online IIT JEE &amp; NEET Learning platform". Check out their chemistry videos!
         </li>
         <li>
          <a href="https://aglasem.com/">
@@ -1746,26 +1995,32 @@
          <a href="https://ocw.mit.edu/index.htm">
           MIT Opencourseware
          </a>
+         Love to learn? Check out MIT OCW for amazing courses from the best technological institute of the World!
         </li>
         <li>
          <a href="https://artofproblemsolving.com/">
           AoPS
          </a>
+         : Practice prealgebra, algebra, geoemtry, and more!
         </li>
         <li>
          <a href="https://www.edx.org/">
           eDX
          </a>
+         contains online university-level courses in a wide range of disciplines. Go check them out!
+         
         </li>
         <li>
          <a href="https://oyc.yale.edu/">
           Yale Opencourseware
          </a>
+         : provides free and open access to a selection of introductory courses taught by distinguished teachers and scholars at Yale University.
         </li>
         <li>
          <a href="https://www.khanacademy.org/science/class-11-chemistry-india">
           Khan Academy Chemistry
          </a>
+         teaches chemistry concepts in an interactive manner.
         </li>
         <li>
          <a href="https://www.studiestoday.com/cbse-class-xii-chemistry-447.html">
@@ -1797,8 +2052,42 @@
      </div>
      <div aria-labelledby="bio-tab-w" class="tab-pane fade" id="bio-w" role="tabpanel">
       <p class="resources">
-       Resources for Biology coming Soon!
+       Check out the following resources for Biology!
       </p>
+      <div class="links">
+       <ul>
+        <li>
+         <a href="https://www.exambazaar.com/blogpost/top-online-study-resources-and-test-series-for-neet">
+          NEET Resources and Mock Test
+         </a>
+        </li>
+        <li>
+         <a href="https://mystudycart.com/aipmt-past-year-papers-free-download">
+          NEET Past Papers
+         </a>
+        </li>
+        <li>
+         <a href="https://www.emedicalprep.com/free-lesson-for-aipmt/">
+          Tips and Trick for NEET Aspirants
+         </a>
+        </li>
+        <li>
+         <a href="https://www.embibe.com/exams/neet-mock-tests/">
+          Free NEET Mock Tests
+         </a>
+        </li>
+        <li>
+         <a href="https://byjus.com/ncert-solutions-class-12-biology/">
+          Biology Class 12 Solutions to NCERT
+         </a>
+        </li>
+        <li>
+         <a href="https://www.embibe.com/exams/cbse-ncert-solutions-for-class-12-biology/">
+          Free Resources for NEET and NCERT
+         </a>
+        </li>
+       </ul>
+      </div>
      </div>
     </div>
    </div>
@@ -1862,20 +2151,55 @@
          <a href="https://www.coursera.org/">
           Coursera
          </a>
+         offers massive open online courses, specializations, and degrees.
         </li>
         <li>
          <a href="https://ocw.mit.edu/index.htm">
           MIT Opencourseware
          </a>
+         Love to learn? Check out MIT OCW for amazing courses from the best technological institute of the World!
         </li>
         <li>
          <a href="https://oyc.yale.edu/">
           Yale Opencourseware
          </a>
+         : provides free and open access to a selection of introductory courses taught by distinguished teachers and scholars at Yale University.
         </li>
         <li>
          <a href="https://www.edx.org/">
           eDX
+         </a>
+         contains online university-level courses in a wide range of disciplines. Go check them out!
+         
+        </li>
+        <li>
+         <a href="https://www.extramarks.com/study-material/icse-class-12/commerce">
+          Extramarks Commerce Resources
+         </a>
+        </li>
+        <li>
+         <a href="https://www.indiaeducation.net/cbse/class-12/commerce/">
+          Commerce Syllabus, Tips and more
+         </a>
+        </li>
+        <li>
+         <a href="https://www.tcyonline.com/tests/bba-entrance">
+          Free Online BBA ENTRANCE Practice &amp; Preparation Tests
+         </a>
+        </li>
+        <li>
+         <a href="https://www.mbauniverse.com/bba/exams">
+          BBA Entrance exam information
+         </a>
+        </li>
+        <li>
+         <a href="https://grad.hitbullseye.com/BBA-Study-Material.php">
+          BBA Study Material and Links
+         </a>
+        </li>
+        <li>
+         <a href="https://www.endeavorcareers.com/iendeavor/bba-online/">
+          BBA Mock Tests and Courses by Endeavor
          </a>
         </li>
        </ul>
@@ -1922,8 +2246,27 @@
      <!-- Arts Subject 1 -->
      <div aria-labelledby="arts-sub1-tab-w" class="tab-pane fade show active" id="arts-sub1-w" role="tabpanel">
       <p class="resources">
-       Resources Coming Soon!
+       Here we have collected some resources that we hope will be helpful to continuing your education.!
       </p>
+      <div class="links">
+       <ul>
+        <li>
+         <a href="https://www.prep.youth4work.com/college-entrance-examination/hsee-test">
+          HSEE Mock Test
+         </a>
+        </li>
+        <li>
+         <a href="https://www.learncbse.in/cbse-class-12-humanities/">
+          Humanities Class 12 NCERT Solution
+         </a>
+        </li>
+        <li>
+         <a href="https://www.meritnation.com/cbse-class-12-humanities/71">
+          Meritnation Class 12 Humanities Resource
+         </a>
+        </li>
+       </ul>
+      </div>
      </div>
      <!-- Arts Subject 2 -->
      <div aria-labelledby="arts-sub2-tab-w" class="tab-pane fade" id="arts-sub2-w" role="tabpanel">

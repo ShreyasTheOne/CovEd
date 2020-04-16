@@ -36,11 +36,13 @@ body{
 .navbar.bg-dark{
 	transition: 0.3s;
 	background-color: var(--blue-theme-color) !important;
+	box-shadow:0 0 10px grey;
 }
 
 .navbar.bg-light{
 	transition:0.3s;
 	background-color: #ffffff !important;
+	box-shadow:0 0 10px grey;
 }
 
 
