@@ -21,14 +21,24 @@
                     document.getElementById("msiNavButton1").classList.add("active");
                 }else if(z == "mentorSignUp.html"){
                     document.getElementById("msiNavButton2").classList.add("active");
+                }else if(z == "resForm.html"){
+                    document.getElementById("msinavButton3").classList.add("active");
                 }
+            }
+            function autoScrolling() {
+                window.scrollTo(0,document.body.scrollHeight);
             }
 
             setInterval(
                 function(){
                     checkWhere();
                 }
-            ), 1000;
+            ,1000);
+
+            setTimeout(function(){
+                autoScrolling();
+            }, 2000);
+            
         </script>
         <link rel="shortcut icon" href="./assets/favicongolden.png">
     </head>
@@ -49,12 +59,16 @@
                     <div id="msiNavButton2">
                         <a href="mentorSignUp.html"><h2>Mentor</h2></a>
                     </div>
+                    <div id="msiNavButton3">
+                        <a href="resForm.html"><h2>Resources</h2></a>
+                    </div>
                 </div>
 
                 <div class="resmsiNavBar">
-                    <a href="mentorSignUp.html"><h2>Do you want to be a mentor?</h2></a>
+                    <a href="studentSignUp.html"><h2>Want to be a mentor? Tap me!</h2></a><br>
+                    <a href="resForm.html"><h2>Have good resources? Tap me!</h2></a>
                 </div>
-                
+
             </div>
 
             <div class="msiHolder">
@@ -62,11 +76,13 @@
 
                 <h3>Student Registration</h3>
                 <br>
-                Don't have enough resources to learn from? Has CoVID-19 deprived you of all your doubt-busters?
-                <br>No worries! Register here.
+                Want to learn something new? Please register here.
+
                 <br><br>
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScd_OOcv1FZO_394vMcsuoz5gIfILqQu1ppLZK0nobGYjhk0Q/viewform?embedded=true" class="msiIframe">Loading…</iframe>
             </div>
+        </div>
+        <div class="respIframe">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScd_OOcv1FZO_394vMcsuoz5gIfILqQu1ppLZK0nobGYjhk0Q/viewform?embedded=true" class="msiIframe">Loading…</iframe>
         </div>
     </body>
 </html>
