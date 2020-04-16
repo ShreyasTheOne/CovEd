@@ -85,6 +85,21 @@ body{
 .description{
 	margin:15vh auto;
 }
+
+.submit-resource{
+	background-color:#002244;
+	color:#ffffff;
+	font-weight:300;
+	border-color: var(--blue-theme-color);
+}
+
+.submit-resource:hover{
+	background-color:#ffffff;
+	color:var(--blue-theme-color);
+	font-weight:300;
+	border-color: var(--blue-theme-color);
+}
+
 .under-line{
 	width:20%;
 	border-bottom:1px solid #002244;
