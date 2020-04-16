@@ -28,9 +28,10 @@ $("document").ready(function(){
 
     if (window.location.hash != null && window.location.hash != ''){
         // $(window).scrollTop(0);
-        setTimeout(function(){  
-            scrollToElem(window.location.hash);
-        } , 500);
+        // setTimeout(function(){  
+        //     scrollToElem(window.location.hash);
+        // } , 500);
+        scrollToElem(window.location.hash);
        
     }
      
