@@ -59,7 +59,7 @@ $("document").ready(function(){
     });
 
     $('#faqLink').on('click', function(){
-        scrollToElem('#faq');
+        window.location="https://covedindia.org/faq.html"
     });
 
 
@@ -117,9 +117,7 @@ $("document").ready(function(){
     });
 
     $('#faqLinkS').on('click', function(){
-        $('#nav-icon3').toggleClass('open');
-        closeNav();
-        scrollToElem('#faq')
+        window.location="https://covedindia.org/faq.html"
     });
 
     $('#resourcesLinkS').on('click', function(){
