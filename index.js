@@ -73,12 +73,12 @@ $("document").ready(function(){
     });
 
     $('#studenttpbtn').on('click', function(){
-      window.location ="studentSignUp.html"
+      window.location ="studentSignUp.html";
         // scrollToElem('#studentsignup');
     });
 
     $('#mentortpbtn').on('click', function(){
-      window.location ="mentorSignUp.html"
+      window.location ="mentorSignUp.html";
         // scrollToElem('#mentorsignup');
     });
 
@@ -102,15 +102,11 @@ $("document").ready(function(){
     });
 
     $('#studentsLinkS').on('click', function(){
-        $('#nav-icon3').toggleClass('open');
-        closeNav();
-        scrollToElem('#studentsignup')
+        window.location ="studentSignUp.html";
     });
 
     $('#mentorsLinkS').on('click', function(){
-        $('#nav-icon3').toggleClass('open');
-        closeNav();
-        scrollToElem('#mentorsignup')
+        window.location = "mentorSignUp.html";
     });
 
     $('#contactusLinkS').on('click', function(){
