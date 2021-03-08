@@ -7,6 +7,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+#shlink{
+    font-size: 1em !important;
+}
+
 .msiContainer{
     width:100%;
     display:grid;
@@ -14,8 +18,9 @@
 }
 .msiHolder{
     grid-area: 3 / 2 / 4 / 3;
-    text-align:left;
+    text-align:justify;
     font-size: 0.67em;
+    
 }
 .lowNav{
     grid-area: 2 / 2 / 3 / 3;
@@ -75,6 +80,11 @@ h2, h3{
 .respIframe{
     display: flex;
     justify-content: center;
+}
+
+#CovEdxSchoolhouse {
+    align-self: center !important;
+    text-align: center !important;
 }
 
 /*responsive*/
