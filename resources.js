@@ -11,7 +11,7 @@ $("document").ready(function(){
                 for (var i = 0; i < elements.length; i++) {
                     elements[i].style.backgroundColor="#000000";
                 }
-          
+
 
         }else{
           nav.classList.remove("addShadowx");
@@ -23,7 +23,7 @@ $("document").ready(function(){
                 }
         }
       });
-    
+
 
     $("#covedNAV").on('click', function(){
         window.location="index.html";
@@ -38,7 +38,7 @@ $("document").ready(function(){
     });
 
     $('#signupLink').on('click', function(){
-		window.location="https://covedindia.org/#signup"
+		window.location="https://covedindia.org/#mentorSignUp"
     });
 
     $('#contactusLink').on('click', function(){
@@ -58,7 +58,7 @@ $("document").ready(function(){
         document.getElementById("sidenavx").style.width = "250px";
         sideopen = true;
     }
-    
+
     });
 
     $('#aboutusLinkS').on('click', function(){
@@ -82,7 +82,7 @@ $("document").ready(function(){
     $('#faqLinkS').on('click', function(){
 		window.location="https://covedindia.org/faq.html"
 	});
-	
+
 	$('#resourcesLinkS').on('click', function(){
         window.location="resources.html"
     });
@@ -109,15 +109,15 @@ $("document").ready(function(){
 
     $('#finsta').on('click', function(){
         window.location = "https://www.instagram.com/covedindia/?igshid=byec8gpb97es";
-    }); 
+    });
 
     $('#ffb').on('click', function(){
         window.location = "https://www.facebook.com/CovEd-India-105360627792093/";
-    }); 
+    });
 
     $('#fmail').on('click', function(){
         window.location = "mailto:covedindia@gmail.com";
-    }); 
+    });
 
 });
 
