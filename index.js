@@ -65,20 +65,20 @@ $("document").ready(function(){
 
 
     $("#enrolbtn").on('click', function(){
-        window.location = "studentSignUp.html";
+        window.location = "https://www.covedindia.org/studentSignUp.html";
     });
 
     $("#joinusbtn").on('click', function(){
-        window.location = "mentorSignUp.html";
+        window.location = "https://www.covedindia.org/mentorSignUp.html";
     });
 
     $('#studenttpbtn').on('click', function(){
-      window.location ="studentSignUp.html";
+      window.location ="https://www.covedindia.org/studentSignUp.html";
         // scrollToElem('#studentsignup');
     });
 
     $('#mentortpbtn').on('click', function(){
-      window.location ="mentorSignUp.html";
+      window.location ="https://www.covedindia.org/mentorSignUp.html";
         // scrollToElem('#mentorsignup');
     });
 
@@ -102,11 +102,11 @@ $("document").ready(function(){
     });
 
     $('#studentsLinkS').on('click', function(){
-        window.location ="studentSignUp.html";
+        window.location ="https://www.covedindia.org/studentSignUp.html";
     });
 
     $('#mentorsLinkS').on('click', function(){
-        window.location = "mentorSignUp.html";
+        window.location = "https://www.covedindia.org/mentorSignUp.html";
     });
 
     $('#contactusLinkS').on('click', function(){
