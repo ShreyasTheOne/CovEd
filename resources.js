@@ -38,7 +38,7 @@ $("document").ready(function(){
     });
 
     $('#signupLink').on('click', function(){
-		window.location="https://covedindia.org/#mentorSignUp"
+		window.location="https://covedindia.org/mentorSignUp.html"
     });
 
     $('#contactusLink').on('click', function(){
