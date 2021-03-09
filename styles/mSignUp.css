@@ -18,9 +18,9 @@
 }
 .msiHolder{
     grid-area: 3 / 2 / 4 / 3;
-    text-align:justify;
+    text-align:left;
     font-size: 0.67em;
-    
+
 }
 .lowNav{
     grid-area: 2 / 2 / 3 / 3;
