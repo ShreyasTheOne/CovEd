@@ -89,6 +89,7 @@ h2, h3{
 
 /*responsive*/
 @media only screen and (max-width: 810px){
+    
     .msiNavBar{
         display: none;
     }
@@ -107,6 +108,7 @@ h2, h3{
         height:auto;
     }
     .msiHolder{
+        margin: 5vh;
         grid-area: 3 / 1 / 4 / 2;
         text-align:left;
         padding:0.166667em;
